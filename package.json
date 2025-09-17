@@ -1,0 +1,19 @@
+{
+    "name": "nikki-dns",
+    "version": "1.0.0",
+    "description": "Lightweight DNS filter using Node.js + SQLite3",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node index.js",
+        "build-db": "node scripts/build-db.js"
+    },
+    "dependencies": {
+        "dgram": "^1.0.1",
+        "dns-packet": "^5.6.1",
+        "dns2": "^2.1.0",
+        "lru-cache": "^11.0.1",
+        "node-fetch": "^2.7.0",
+        "sqlite3": "^5.1.7"
+    }
+}
